@@ -1,0 +1,4 @@
+user_id,timestamp,text,true_labels
+u1,2025-08-01,"I felt anxious before the meeting but relieved after.","nervousness;relief"
+u1,2025-08-05,"Great news today, I’m so excited and proud of myself!","excitement;pride"
+u1,2025-08-12,"I'm lonely and a bit hopeless lately.","sadness"
