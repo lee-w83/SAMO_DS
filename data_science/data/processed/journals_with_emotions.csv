@@ -1,0 +1,4 @@
+user_id,timestamp,text,true_labels,final_emotion,final_macro,avg_confidence,details
+u1,2025-08-01,I felt anxious before the meeting but relieved after.,nervousness;relief,fear,negative,0.386,"{'fear': {'count': 1, 'avg_conf': 0.479}, 'nervousness': {'count': 1, 'avg_conf': 0.292}}"
+u1,2025-08-05,"Great news today, I’m so excited and proud of myself!",excitement;pride,excitement,positive,0.384,"{'excitement': {'count': 1, 'avg_conf': 0.453}, 'joy': {'count': 1, 'avg_conf': 0.314}}"
+u1,2025-08-12,I'm lonely and a bit hopeless lately.,sadness,sadness,negative,0.811,"{'sadness': {'count': 1, 'avg_conf': 0.811}}"

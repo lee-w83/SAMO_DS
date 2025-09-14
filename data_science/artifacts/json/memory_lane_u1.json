@@ -1,0 +1,41 @@
+{
+  "user_id": "u1",
+  "buckets": [
+    {
+      "week_start": "2025-07-29",
+      "macro_counts": {
+        "positive": 0,
+        "negative": 1,
+        "neutral": 0
+      },
+      "dominant_macro": "negative",
+      "positive_ratio": 0.0
+    },
+    {
+      "week_start": "2025-08-05",
+      "macro_counts": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0
+      },
+      "dominant_macro": "positive",
+      "positive_ratio": 1.0
+    },
+    {
+      "week_start": "2025-08-12",
+      "macro_counts": {
+        "positive": 0,
+        "negative": 1,
+        "neutral": 0
+      },
+      "dominant_macro": "negative",
+      "positive_ratio": 0.0
+    }
+  ],
+  "streaks": {
+    "positive": {
+      "current": 0,
+      "best": 1
+    }
+  }
+}

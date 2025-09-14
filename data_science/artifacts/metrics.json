@@ -1,0 +1,69 @@
+{
+  "metrics": {
+    "f1_micro": 0.75,
+    "f1_macro": 0.6
+  },
+  "labels": [
+    "excitement",
+    "fear",
+    "joy",
+    "nervousness",
+    "sadness"
+  ],
+  "report": {
+    "excitement": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "fear": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "joy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "nervousness": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "sadness": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "micro avg": {
+      "precision": 0.6,
+      "recall": 1.0,
+      "f1-score": 0.75,
+      "support": 3.0
+    },
+    "macro avg": {
+      "precision": 0.6,
+      "recall": 0.6,
+      "f1-score": 0.6,
+      "support": 3.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "samples avg": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.7777777777777777,
+      "support": 3.0
+    }
+  }
+}
