@@ -1,0 +1,6 @@
+transformers==4.43.4
+torch>=2.0.0
+pandas==2.2.2
+scikit-learn==1.4.2
+spacy==3.7.5
+en-core-web-sm==3.7.1 ; sys_platform == 'linux' or sys_platform == 'darwin' or sys_platform == 'win32'
