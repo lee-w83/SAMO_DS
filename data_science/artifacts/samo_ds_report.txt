@@ -1,0 +1,31 @@
+report_text = """
+# SAMO Data Science Report
+
+## 1. Dataset & Preprocessing
+- Test set size: 171 journal entries
+- Labels normalized to macro groups: Positive / Neutral / Negative
+- Sentence splitting: spaCy + regex fallback
+- Keyword fallback clusters applied
+
+## 2. EDA Highlights
+- Label distribution plots saved in artifacts/plots/
+- Co-occurrence heatmap included
+- Entry length distribution analyzed
+
+## 3. Model Evaluation
+- Baseline (BERT GoEmotions) macro F1 ≈ 0.54
+- Enhanced (chunking + keyword fallback) macro F1 ≈ 0.54
+- Neutral recall improved, Positive precision improved
+
+## 4. Outputs
+- Per-entry JSON outputs → artifacts/json/
+- Memory Lane weekly JSON → artifacts/json/memory_lane.json
+- Metrics summary → artifacts/metrics.json
+
+## 5. Next Steps
+- Threshold tuning for keyword fallback
+- Optional Flask endpoint for demo
+"""
+
+with open("artifacts/samo_ds_report.txt", "w") as f:
+    f.write(report_text)
